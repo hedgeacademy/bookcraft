@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Generated book exports and temporary conversion artifacts
+exports/
+*.docx
+reference.docx
+
+# Local draft projects created while testing the Skill
+test-output/
+tmp/
+geng-zhengyi-biography/
+向世界生长-陈歆怡传/
+tools/

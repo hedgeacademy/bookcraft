@@ -1,0 +1,7 @@
+interface:
+  display_name: "Bookcraft"
+  short_description: "Plan, write, package, and export Chinese books"
+  default_prompt: "Use $bookcraft to plan, write, package, or export a Chinese book project."
+
+policy:
+  allow_implicit_invocation: true

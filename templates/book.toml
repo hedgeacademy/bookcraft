@@ -1,0 +1,263 @@
+[book]
+title = "待定书名"
+authors = ["未署名作者"]
+description = "待补充内容提要"
+src = "src"
+language = "zh-CN"
+text-direction = "ltr"
+
+[bookcraft.book]
+subtitle = ""
+
+[bookcraft.description]
+summary = "一句话内容摘要，约 50-80 字，概括全书核心框架。"
+text = """详细书籍简介，100-200 字。说明本书主题、核心框架、章节范围、目标读者和阅读价值。"""
+keywords = []
+target_readers = "待明确"
+category = "待分类"
+
+[bookcraft.publisher]
+name = "出版方待定"
+address = "待补充"
+website = ""
+
+[bookcraft.edition]
+version = "2026 年 X 月第 1 版"
+printing = "2026 年 X 月第 1 次印刷"
+format = "170mm × 240mm"
+isbn = "待申请"
+price = "待定"
+
+[bookcraft.copyright_notice]
+text = "© 2026 作者或版权方 保留所有权利"
+disclaimer = "未经作者或版权方书面许可，不得以任何形式复制、改编或传播。"
+
+[bookcraft.cip]
+text = """图书在版编目（CIP）数据
+书名 / 作者著. — 出版地：出版方，年份
+Ⅰ. … Ⅱ. … Ⅲ. …
+中国国家版本馆 CIP 数据核字（待申请）"""
+
+[bookcraft.export]
+output_directory = "exports"
+filename_prefix = ""
+filename_pattern = "{title}-{author}-{yyyyMMdd}-{HHmm}.docx"
+word_config = "config/word.json"
+script = "scripts/md2word.py"
+
+[bookcraft.workflow.auto_writing]
+end_to_end = true
+ask_for_confirmation = false
+pause_for_pending_items = false
+complete_all_chapters = true
+auto_research = true
+auto_review_and_revise = true
+export_docx = true
+retry_recoverable_errors = true
+finish_only_after_docx_validation = true
+
+[bookcraft.layout.page]
+source = "经典中文图书排版"
+word_version = "Word 2010 或兼容版本"
+paper = "16开"
+page_width_cm = 18.4
+page_height_cm = 26.0
+margin_top_cm = 2.5
+margin_bottom_cm = 1.8
+margin_left_cm = 2.0
+margin_right_cm = 2.0
+header_distance_cm = 1.7
+footer_distance_cm = 1.3
+different_odd_even_pages = true
+different_first_page = true
+
+[bookcraft.layout.page_numbering]
+front_matter_show_page_number = false
+toc_format = "upperRoman"
+toc_start = 1
+body_format = "decimal"
+body_start = 1
+body_min_digits = 3
+
+[bookcraft.layout.grid]
+enabled = true
+characters_per_line = 40
+lines_per_page = 40
+
+[bookcraft.layout.body]
+font = "宋体"
+font_size_pt = 10.5
+first_line_indent_chars = 2
+line_spacing_multiple = 1.5
+alignment = "justify"
+manual_font_size_in_body = false
+paragraph_starts_with_spaces_or_tabs = false
+
+[bookcraft.layout.headings]
+max_heading_level = 3
+toc_depth = 3
+chapter_number_style = "第3章"
+use_arabic_chapter_number = true
+avoid_consecutive_headings = true
+require_transition_text_between_heading_levels = true
+
+[bookcraft.layout.code]
+font = "Courier New"
+font_size_pt = 8
+line_spacing_multiple = 1.5
+require_indentation = true
+require_comments = true
+only_include_relevant_code = true
+
+[bookcraft.layout.figures_tables]
+caption_alignment = "center"
+caption_blank_line_before = true
+caption_blank_line_after = true
+number_name_separator = "  "
+table_caption_position = "above"
+figure_wrapping = "inline"
+figure_text_reference_required = true
+figure_near_first_reference = true
+figure_text_target_font_size = "六号"
+
+[bookcraft.content_rules.book_title]
+beginner_reader_style = "通俗易懂，适当活泼"
+professional_reader_style = "体现专业性，关键词明显"
+must_highlight_selling_point = true
+subtitle_single_sentence = true
+subtitle_keep_short = true
+subtitle_max_chars = 15
+subtitle_split_title_forbidden = true
+subtitle_forbidden_separators = ["：", ":", "——", "--", "｜", "|"]
+
+[bookcraft.content_rules.toc]
+max_depth = 3
+title_style = "言简意赅，紧扣书名，体现全书内容框架和重点"
+avoid_title_content_imbalance = true
+
+[bookcraft.content_rules.outline.chapter]
+min_sections = 3
+recommended_min_sections = 3
+recommended_max_sections = 6
+max_sections = 10
+min_chars = 10000
+default_chars = 13000
+preferred_over_default = true
+epigraph_required = true
+epigraph_min_chars = 700
+epigraph_default_chars = 1300
+epigraph_flexible = true
+
+[bookcraft.content_rules.outline.section]
+min_subsections = 3
+recommended_min_subsections = 3
+recommended_max_subsections = 6
+max_subsections = 10
+allow_no_subsections_when_short = true
+min_chars = 3500
+default_chars = 4500
+preferred_over_default = true
+epigraph_required = true
+epigraph_min_chars = 350
+epigraph_default_chars = 700
+epigraph_flexible = true
+
+[bookcraft.content_rules.outline.subsection]
+min_chars = 1300
+default_chars = 2000
+preferred_over_default = true
+epigraph_required = false
+epigraph_min_chars = 0
+epigraph_default_chars = 0
+epigraph_flexible = true
+
+[bookcraft.content_rules.intro]
+description_target_chars = 200
+preface_max_pages = 2
+preface_should_include = ["技术发展概况", "写作初衷", "写作必要性", "参与人员", "致谢人员"]
+
+[bookcraft.content_rules.front_matter]
+recommendation_preface_optional = true
+recommendation_preface_default_count = 0
+recommendation_preface_max_count = 3
+recommendation_preface_titles = ["序言一", "序言二", "序言三"]
+author_preface_required = true
+author_preface_count = 1
+author_preface_signature_lines = 2
+author_preface_blank_line_before_signature = true
+author_preface_signature_alignment = "right"
+author_preface_date_include_year = false
+author_preface_date_place_example = "6月1日于苏州"
+
+[bookcraft.content_rules.language]
+prefer_svo = true
+use_formal_language = true
+avoid_colloquial_words = true
+avoid_unnecessary_questions = true
+avoid_personal_pronouns = true
+preferred_self_reference = "笔者"
+replace_it_with = "其"
+punctuation_logic_clear = true
+
+[bookcraft.content_rules.ui_terms]
+quote_ui_names = true
+write_full_control_name = true
+example = "单击“确定”按钮；在“口令”文本框中输入“123456”"
+
+[bookcraft.content_rules.operations]
+one_action_per_step = true
+step_result_required = true
+may_simplify_repeated_steps = true
+do_not_omit_steps = true
+
+[bookcraft.content_rules.figures]
+crop_to_relevant_area = true
+annotation_as_word_text = true
+must_be_mentioned_in_body = true
+caption_terms_match_body = true
+caption_matches_content = true
+do_not_cross_section_or_chapter = true
+
+[bookcraft.content_rules.physical_quantities]
+quantity_symbols_italic = true
+vectors_tensors_matrices_bold_italic = true
+fixed_functions_units_upright = true
+use_arabic_number_with_legal_unit = true
+space_between_number_and_unit = "1/4字空或 1 个空格"
+
+[bookcraft.content_rules.references]
+required = true
+min_entries = 1
+placeholder_content_forbidden = true
+block_export_when_missing = true
+format = "主要责任者.书名.其他责任者.版本.出版地:出版者,出版年.文献数量.丛编项.附注项.文献标准编号"
+
+[bookcraft.content_rules.media]
+readme_required_for_disc = true
+disc_content_must_be_original = true
+prefer_online_download_if_small = true
+
+[bookcraft.cover]
+sales_hook = ""
+visual_symbol = ""
+thumbnail_readability_required = true
+shelf_test_seconds = 3
+recommended_directions = 3
+avoid_overcrowded_text = true
+series_system_optional = true
+
+[bookcraft.normalization]
+term_replacements = [
+  "座标=>坐标",
+  "缺省值=>默认值",
+  "唯一=>惟一",
+  "帐号=>账号",
+  "做为=>作为",
+  "图象=>图像",
+  "存贮=>存储",
+  "其它=>其他",
+  "以及=>，以及"
+]
+required_spellings = ["E-mail", "电子邮件", "Windows"]
+forbidden_spellings = ["email", "mail", "伊妹儿", "WIN", "windows", "WINDOWS"]
+
