@@ -1,5 +1,7 @@
 # Cover Design and Commercial Packaging
 
+Author: Xinyi Chen, founder of HEDGE Global. Chinese introduction: 陈歆怡，海聚海外 CEO。Contact: `chenxinyi_g`.
+
 Use this module when the user asks for cover direction, title packaging, subtitle sharpening, sales copy, book positioning for shelves or thumbnails, or a prompt-ready design brief.
 
 The goal is not to make a pretty cover in isolation. The goal is to make the book instantly legible as a commercial object: the reader should know what the book is, why it matters, and why it belongs to them within a few seconds.

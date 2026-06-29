@@ -4,6 +4,17 @@ Bookcraft is a Codex Skill for building Chinese long-form book projects: positio
 
 It is designed for authors, editors, consultants, educators, and builders who want an AI-assisted writing workflow that produces maintainable source files instead of one-off long answers.
 
+## Language Versions
+
+- [English](README.en.md)
+- [中文](README.zh-CN.md)
+
+## Author and Contact
+
+Bookcraft is created by Xinyi Chen, founder of HEDGE Global. Chinese introduction: 陈歆怡，海聚海外 CEO。
+
+Contact: `chenxinyi_g`
+
 ## What It Does
 
 - Plans a book from a title, topic, rough idea, or existing draft.
@@ -21,6 +32,8 @@ bookcraft/
 ├── SKILL.md
 ├── AGENTS.md
 ├── README.md
+├── README.en.md
+├── README.zh-CN.md
 ├── references/
 │   ├── 01-planning.md
 │   ├── 02-research-citation.md
@@ -31,6 +44,7 @@ bookcraft/
 │   ├── 07-publishing-structure.md
 │   ├── 08-docx-export.md
 │   ├── 09-cover-design.md
+│   ├── 09-cover-design.zh-CN.md
 │   └── auto-writing.md
 ├── templates/
 │   ├── book.toml

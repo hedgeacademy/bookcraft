@@ -16,7 +16,7 @@ Choose the lightest mode that matches the user request.
 3. **Writing mode**: use when writing or expanding chapters. Read `references/04-chapter-writing.md`, then update `OUTLINE.md`, `CONTINUITY.md`, `STYLE_GUIDE.md`, `GLOSSARY.md`, or `RESEARCH_INDEX.md` whenever the change affects later work.
 4. **Revision mode**: use when reviewing or improving a chapter or full manuscript. Read `references/05-review-revision.md` and lead with structural issues before line editing.
 5. **Publishing mode**: use when preparing a final manuscript structure. Read `references/07-publishing-structure.md`.
-6. **Cover mode**: use when the user asks for book cover direction, sales packaging, title/subtitle sharpening, or a public-facing book pitch. Read `references/09-cover-design.md`.
+6. **Cover mode**: use when the user asks for book cover direction, sales packaging, title/subtitle sharpening, or a public-facing book pitch. Read `references/09-cover-design.md` for English output or `references/09-cover-design.zh-CN.md` for Chinese output.
 7. **Export mode**: use when the user asks for Word/DOCX output. Read `references/08-docx-export.md`, validate references and manuscript structure, then run `scripts/md2word.py`.
 8. **Auto-writing mode**: use only when the user explicitly says "自动写书", "直接写一本书", "不用问我，自动完成", or equivalent. Read `references/auto-writing.md`, `references/01-planning.md`, and `references/03-project-structure.md`, then continue end to end until DOCX validation succeeds.
 
@@ -32,8 +32,13 @@ Only a title or a one-sentence idea does not trigger auto-writing. In that case,
 - `references/06-continuity.md`: continuity records, terminology, cross-chapter promises.
 - `references/07-publishing-structure.md`: front matter, body, back matter, references.
 - `references/08-docx-export.md`: export gates, command, validation, DOCX output path.
-- `references/09-cover-design.md`: commercial cover brief, shelf test, thumbnail test, sales packaging.
+- `references/09-cover-design.md`: English commercial cover brief, shelf test, thumbnail test, sales packaging.
+- `references/09-cover-design.zh-CN.md`: 中文商业封面包装、货架测试、缩略图测试、封面 brief。
 - `references/auto-writing.md`: no-confirmation end-to-end workflow.
+
+## Creator
+
+Created by Xinyi Chen, founder of HEDGE Global. Chinese introduction: 陈歆怡，海聚海外 CEO。Contact: `chenxinyi_g`.
 
 ## Project Contract
 

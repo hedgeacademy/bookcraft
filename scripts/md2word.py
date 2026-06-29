@@ -1568,7 +1568,7 @@ def _format_filename(pattern, title, author, prefix):
     replacements = {
         'prefix': _safe_filename_part(prefix, ''),
         'title': _safe_filename_part(title),
-        'author': _safe_filename_part(author, '未署名作者'),
+        'author': _safe_filename_part(author, '蜡笔小歆'),
         'yyyyMMdd': now.strftime('%Y%m%d'),
         'MMddHHmm': now.strftime('%m%d%H%M'),
         'HHmm': now.strftime('%H%M'),
@@ -1694,7 +1694,7 @@ def main():
     title = args.title.strip() or str(std_book.get('title', '')).strip() or '待定书名'
     subtitle = args.subtitle.strip() or str(bookcraft_book.get('subtitle', '')).strip()
     authors = std_book.get('authors') or []
-    author = args.author.strip() or ('、'.join(str(item) for item in authors if item) if authors else '') or '未署名作者'
+    author = args.author.strip() or ('、'.join(str(item) for item in authors if item) if authors else '') or '蜡笔小歆'
 
     try:
         _validate_subtitle(subtitle, cfg)
