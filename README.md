@@ -14,6 +14,7 @@ It is designed for authors, editors, consultants, educators, and builders who wa
 - [日本語](README.ja.md)
 - [Français](README.fr.md)
 - [Deutsch](README.de.md)
+- [ไทย](README.th.md)
 
 ## Author and Contact
 
@@ -46,6 +47,7 @@ bookcraft/
 ├── README.ja.md
 ├── README.fr.md
 ├── README.de.md
+├── README.th.md
 ├── references/
 │   ├── 01-planning.md
 │   ├── 02-research-citation.md
@@ -63,6 +65,7 @@ bookcraft/
 │   ├── 09-cover-design.ja.md
 │   ├── 09-cover-design.fr.md
 │   ├── 09-cover-design.de.md
+│   ├── 09-cover-design.th.md
 │   └── auto-writing.md
 ├── templates/
 │   ├── book.toml

@@ -40,6 +40,7 @@ Only a title or a one-sentence idea does not trigger auto-writing. In that case,
 - `references/09-cover-design.ja.md`: Japanese cover packaging notes.
 - `references/09-cover-design.fr.md`: French cover packaging notes.
 - `references/09-cover-design.de.md`: German cover packaging notes.
+- `references/09-cover-design.th.md`: Thai cover packaging notes.
 - `references/auto-writing.md`: no-confirmation end-to-end workflow.
 
 ## Creator
