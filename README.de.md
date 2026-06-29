@@ -10,6 +10,16 @@ Chinesische Vorstellung: 陈歆怡，海聚海外 CEO。
 
 Kontakt: `chenxinyi_g`
 
+## Über Xinyi
+
+Xinyi Chen stammt aus Zhejiang und lebt in Shanghai.
+
+Sie ist Gründerin und CEO von HEDGE Global und beschäftigt sich seit vielen Jahren mit hochwertiger internationaler Bildung, globaler Expansion von Unternehmen und Technologieinvestitionen. Früher reiste sie gern spontan; heute ist sie Vibe-coding-Enthusiastin.
+
+Wer sich über Vibe coding austauschen möchte, kann sie auf WeChat hinzufügen: `chenxinyi_g`.
+
+![WeChat-QR-Code](assets/wechat-qr.png)
+
 ## Was die Skill abdeckt
 
 - Buchpositionierung, Leserprechen, Titel, Untertitel und vollständige Gliederung.

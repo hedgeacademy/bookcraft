@@ -10,6 +10,16 @@ Created by Xinyi Chen, founder of HEDGE Global.
 
 Contact: `chenxinyi_g`
 
+## Xinyi 소개
+
+Xinyi Chen은 저장성 출신으로 상하이에 기반을 두고 있습니다.
+
+그녀는 HEDGE Global의 창립자이자 CEO이며, 오랫동안 고급 국제 교육, 기업의 해외 진출, 기술 투자 분야에 집중해 왔습니다. 예전에는 즉흥 여행을 좋아했고, 지금은 Vibe coding 애호가입니다.
+
+Vibe coding에 대해 이야기하고 싶은 분들은 WeChat에서 `chenxinyi_g`를 추가해 주세요.
+
+![WeChat QR 코드](assets/wechat-qr.png)
+
 ## 주요 기능
 
 - 책의 포지셔닝, 독자 약속, 제목, 부제, 전체 목차 설계.

@@ -10,6 +10,16 @@ Chinese introduction: 陈歆怡，海聚海外 CEO。
 
 Contact: `chenxinyi_g`
 
+## About Xinyi
+
+Xinyi Chen is from Zhejiang and based in Shanghai.
+
+She is the founder and CEO of HEDGE Global, with long-term focus on high-end international education, overseas expansion for companies, and technology investment. She used to love spontaneous travel; now she is a Vibe coding enthusiast.
+
+Friends who want to exchange ideas about vibe coding are welcome to add WeChat: `chenxinyi_g`.
+
+![WeChat QR code](assets/wechat-qr.png)
+
 ## What It Covers
 
 - Book positioning, reader promise, title, subtitle, and full outline.

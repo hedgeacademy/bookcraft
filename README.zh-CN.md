@@ -10,6 +10,16 @@ Bookcraft 是一个面向 Codex 的出书与商业封面包装 Skill，用于规
 
 联系方式：`chenxinyi_g`
 
+## 关于陈歆怡
+
+陈歆怡（Xinyi Chen），在上海的浙江人。
+
+海聚海外（HEDGE Global）创始人兼 CEO，长期深耕高端国际教育、企业出海和科技投资。以前喜欢随心旅行，现在是 Vibe coding 爱好者。
+
+想要交流 Vibe coding 的朋友，欢迎加微信：`chenxinyi_g`
+
+![微信二维码](assets/wechat-qr.png)
+
 ## 能做什么
 
 - 从书名、主题、一句话想法或已有草稿开始规划一本书。

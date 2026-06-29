@@ -2,6 +2,16 @@
 
 Author: Xinyi Chen, founder of HEDGE Global. 中国語での紹介: 陈歆怡，海聚海外 CEO。Contact: `chenxinyi_g`.
 
+## Xinyi について
+
+Xinyi Chen は浙江省出身で、上海を拠点にしています。
+
+HEDGE Global の創業者兼 CEO として、長年にわたり高端国際教育、企業の海外展開、テクノロジー投資に取り組んできました。以前は気ままな旅が好きでしたが、今は Vibe coding の愛好者です。
+
+Vibe coding について交流したい方は、WeChat で `chenxinyi_g` を追加してください。
+
+![WeChat QRコード](../assets/wechat-qr.png)
+
 表紙の方向性、タイトル/サブタイトル改善、販売パッケージ、表紙ブリーフ、画像生成プロンプトが必要なときに使います。
 
 ## 基本原則

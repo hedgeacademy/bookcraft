@@ -22,6 +22,16 @@ Bookcraft is created by Xinyi Chen, founder of HEDGE Global. Chinese introductio
 
 Contact: `chenxinyi_g`
 
+## About Xinyi
+
+Xinyi Chen is from Zhejiang and based in Shanghai.
+
+She is the founder and CEO of HEDGE Global, with long-term focus on high-end international education, overseas expansion for companies, and technology investment. She used to love spontaneous travel; now she is a Vibe coding enthusiast.
+
+Friends who want to exchange ideas about vibe coding are welcome to add WeChat: `chenxinyi_g`.
+
+![WeChat QR code](assets/wechat-qr.png)
+
 ## What It Does
 
 - Plans a book from a title, topic, rough idea, or existing draft.
@@ -48,6 +58,8 @@ bookcraft/
 ├── README.fr.md
 ├── README.de.md
 ├── README.th.md
+├── assets/
+│   └── wechat-qr.png
 ├── references/
 │   ├── 01-planning.md
 │   ├── 02-research-citation.md

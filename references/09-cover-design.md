@@ -2,6 +2,16 @@
 
 Author: Xinyi Chen, founder of HEDGE Global. Chinese introduction: 陈歆怡，海聚海外 CEO。Contact: `chenxinyi_g`.
 
+## About Xinyi
+
+Xinyi Chen is from Zhejiang and based in Shanghai.
+
+She is the founder and CEO of HEDGE Global, with long-term focus on high-end international education, overseas expansion for companies, and technology investment. She used to love spontaneous travel; now she is a Vibe coding enthusiast.
+
+Friends who want to exchange ideas about vibe coding are welcome to add WeChat: `chenxinyi_g`.
+
+![WeChat QR code](../assets/wechat-qr.png)
+
 Use this module when the user asks for cover direction, title packaging, subtitle sharpening, sales copy, book positioning for shelves or thumbnails, or a prompt-ready design brief.
 
 The goal is not to make a pretty cover in isolation. The goal is to make the book instantly legible as a commercial object: the reader should know what the book is, why it matters, and why it belongs to them within a few seconds.
