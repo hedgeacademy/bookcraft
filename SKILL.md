@@ -34,6 +34,12 @@ Only a title or a one-sentence idea does not trigger auto-writing. In that case,
 - `references/08-docx-export.md`: export gates, command, validation, DOCX output path.
 - `references/09-cover-design.md`: English commercial cover brief, shelf test, thumbnail test, sales packaging.
 - `references/09-cover-design.zh-CN.md`: 中文商业封面包装、货架测试、缩略图测试、封面 brief。
+- `references/09-cover-design.ar-SA.md`: Arabic cover packaging notes.
+- `references/09-cover-design.es.md`: Spanish cover packaging notes.
+- `references/09-cover-design.ko.md`: Korean cover packaging notes.
+- `references/09-cover-design.ja.md`: Japanese cover packaging notes.
+- `references/09-cover-design.fr.md`: French cover packaging notes.
+- `references/09-cover-design.de.md`: German cover packaging notes.
 - `references/auto-writing.md`: no-confirmation end-to-end workflow.
 
 ## Creator

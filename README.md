@@ -8,6 +8,12 @@ It is designed for authors, editors, consultants, educators, and builders who wa
 
 - [English](README.en.md)
 - [中文](README.zh-CN.md)
+- [العربية - السعودية](README.ar-SA.md)
+- [Español](README.es.md)
+- [한국어](README.ko.md)
+- [日本語](README.ja.md)
+- [Français](README.fr.md)
+- [Deutsch](README.de.md)
 
 ## Author and Contact
 
@@ -34,6 +40,12 @@ bookcraft/
 ├── README.md
 ├── README.en.md
 ├── README.zh-CN.md
+├── README.ar-SA.md
+├── README.es.md
+├── README.ko.md
+├── README.ja.md
+├── README.fr.md
+├── README.de.md
 ├── references/
 │   ├── 01-planning.md
 │   ├── 02-research-citation.md
@@ -45,6 +57,12 @@ bookcraft/
 │   ├── 08-docx-export.md
 │   ├── 09-cover-design.md
 │   ├── 09-cover-design.zh-CN.md
+│   ├── 09-cover-design.ar-SA.md
+│   ├── 09-cover-design.es.md
+│   ├── 09-cover-design.ko.md
+│   ├── 09-cover-design.ja.md
+│   ├── 09-cover-design.fr.md
+│   ├── 09-cover-design.de.md
 │   └── auto-writing.md
 ├── templates/
 │   ├── book.toml
